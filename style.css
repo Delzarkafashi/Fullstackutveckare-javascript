@@ -1,0 +1,262 @@
+:root{
+  --bg:#0b0c10;
+  --surface:#101218;
+  --card:#121623;
+  --fg:#e6e8ee;
+  --muted:#9aa3b2;
+  --line:#22293a;
+  --brand:#5a7cff;
+  --accent:#00d1b2;
+}
+html, body { 
+  height: 100%; 
+  overflow-y: auto; 
+}
+.page-layout {
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:auto 1fr auto;
+  min-height:100svh;
+  width:100%;
+}
+
+/* header */
+.header {
+  grid-area: 1 / 1 / 3 / 13;
+  min-height: 120px;
+  background-color: var(--card);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* menu i header*/
+.menu{
+  position: absolute;       
+  bottom: 0px;             
+  left: 50%;                
+  transform: translateX(-50%);
+  margin: 0;              
+  padding: 5px 16px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+  /* background-color: var(--surface); */
+  border-radius: 12px;
+}
+
+.menu a{
+  padding: 6px 14px;
+  border-radius: 10px;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+/* login/singup i header*/
+.auth-buttons {
+  position: absolute;
+  right: 20px;
+  bottom: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.auth-buttons .signup,
+.auth-buttons .login {
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background-color: var(--surface);
+  color: var(--fg);
+}
+
+.auth-buttons button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background-color: var(--surface);
+  color: var(--fg);
+  cursor: pointer;
+}
+
+.auth-buttons i {
+  font-size: 14px;
+}
+
+/* dark mode-knapp i header */
+.dark-toggle{
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  width: 70px;
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background-color: var(--surface);
+  color: var(--fg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dark-toggle i{
+  font-size: 16px;
+}
+
+/* placera sök I headern */
+.search-bar{
+  position: absolute;
+  top: 40px;               /* justera upp/ner */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  width: 30%;
+  max-width: 700px;
+}
+
+.search-input{
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid var(--line);
+  border-right: none;
+  background: var(--surface);
+  color: var(--fg);
+}
+
+.search-btn{
+  padding: 10px 18px;
+  border-radius: 0 10px 10px 0;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--fg);
+  cursor: pointer;
+}
+
+/* Logo i header*/
+.logo{
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 110px;
+  height: 110px;
+
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+
+/* main */
+.main {
+    grid-area: 3 / 1 / 11 / 13;
+    min-height: 800px;
+    background-color: var(--surface);
+}
+
+/* footer  */
+.footer {
+    grid-area: 11 / 1 / 13 / 13;
+    min-height: 150px;
+    background-color: var(--card);
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fg);
+    text-align: center;
+}
+
+.footer-kontakt {
+    background-color: var(--card);
+}
+
+.footer-social {
+    background-color: var(--card);
+}
+
+.footer-hjalp {
+    background-color: var(--card);
+}
+
+@media (max-width: 768px) {
+.logo{
+  position: absolute;
+  left: 10px;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 85px;   
+  height: 85px;   
+  background-color: #020617;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fg);
+  font-weight: 600;
+}
+.search-bar{
+  position: absolute;
+  top: 50px;    
+  left: 40%;       
+  transform: translateX(-50%);
+  display: flex;
+  width: 30%;
+  max-width: 700px;
+}
+.auth-buttons button span {
+    display: none; 
+  }
+
+.auth-buttons button {
+    padding: 6px;    
+    min-width: 40px;  
+  }
+.auth-buttons {
+  position: absolute;
+  right: 10px;
+  bottom: -0px;
+  display: flex;
+  gap: 8px;
+}
+.menu{
+  position: absolute;       
+  bottom: -7px;             
+  left: 40%;            
+  transform: translateX(-50%);
+  margin: 0;              
+  padding: 5px 16px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  width: fit-content;
+  border-radius: 12px;
+}
+.footer {
+  grid-template-columns: 1fr;  
+}
+
+.footer-col {
+  padding: 12px 0;             
+}
+    
+}
