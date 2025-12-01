@@ -15,14 +15,15 @@
 - Använda `:root` för att skapa enkla färgvariabler (t.ex. `--bg`, `--surface`, `--card`, `--fg`) och använda dem för bakgrund och text i `body`, `header`, `main` och `footer`.
 - Göra en enkel responsiv anpassning med media queries (t.ex. flytta om boxarna i header).
 
-
-
+---
 
 ## Hur man ska tänka
 - Fokus är att förstå **struktur**, inte design.
 - Tänk: “Var ska saker ligga?” inte “Hur ska det se ut?”
 - Header, main och footer ska kännas som “lådor” du placerar ut.
 - Det spelar ingen roll om det ser fult ut i början – bara att layouten fungerar.
+
+---
 
 ## Pseudokod – Vecka 1
 1. Skapa mapp för projektet
