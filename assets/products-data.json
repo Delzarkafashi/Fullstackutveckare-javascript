@@ -1,0 +1,644 @@
+{
+  "products": [
+    {
+      "id": "sommar-troja-1",
+      "name": "Sommartröja Tunn",
+      "category": "tröja",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 199,
+      "discountPercent": 10,
+      "image": "assets/images/sommar-troja1.png",
+      "inStock": true
+    },
+    {
+      "id": "sommar-troja-2",
+      "name": "Sommartröja Sport",
+      "category": "tröja",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 249,
+      "discountPercent": 0,
+      "image": "assets/images/sommar-troja2.png",
+      "inStock": true
+    },
+    {
+      "id": "sommar-jacka-1",
+      "name": "Sommarjacka Tunn",
+      "category": "jacka",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 399,
+      "discountPercent": 15,
+      "image": "assets/images/sommar-jacka1.png",
+      "inStock": true
+    },
+    {
+      "id": "sommar-jacka-2",
+      "name": "Vindjacka Sommar",
+      "category": "jacka",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 449,
+      "discountPercent": 5,
+      "image": "assets/images/sommar-jacka2.png",
+      "inStock": false
+    },
+    {
+      "id": "sommar-byxa-1",
+      "name": "Sommarshorts",
+      "category": "byxa",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 199,
+      "discountPercent": 0,
+      "image": "assets/images/sommar-byxa1.png",
+      "inStock": true
+    },
+    {
+      "id": "sommar-byxa-2",
+      "name": "Sommarträningsbyxa",
+      "category": "byxa",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 249,
+      "discountPercent": 10,
+      "image": "assets/images/sommar-byxa2.png",
+      "inStock": true
+    },
+    {
+      "id": "sommar-sko-1",
+      "name": "Lätta Sommarskor",
+      "category": "sko",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 299,
+      "discountPercent": 0,
+      "image": "assets/images/sommar-sko1.png",
+      "inStock": true
+    },
+    {
+      "id": "sommar-sko-2",
+      "name": "Sommarsneakers",
+      "category": "sko",
+      "season": "sommar",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 349,
+      "discountPercent": 5,
+      "image": "assets/images/sommar-sko2.png",
+      "inStock": true
+    },
+    {
+      "id": "host-troja-1",
+      "name": "Hösttröja Tjock",
+      "category": "tröja",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 299,
+      "discountPercent": 10,
+      "image": "assets/images/host-troja1.png",
+      "inStock": true
+    },
+    {
+      "id": "host-troja-2",
+      "name": "Hösttröja Stickad",
+      "category": "tröja",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 349,
+      "discountPercent": 0,
+      "image": "assets/images/host-troja2.png",
+      "inStock": false
+    },
+    {
+      "id": "host-jacka-1",
+      "name": "Höstjacka Klassisk",
+      "category": "jacka",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 599,
+      "discountPercent": 20,
+      "image": "assets/images/host-jacka1.png",
+      "inStock": true
+    },
+    {
+      "id": "host-jacka-2",
+      "name": "Höstjacka Tjock",
+      "category": "jacka",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 649,
+      "discountPercent": 10,
+      "image": "assets/images/host-jacka2.png",
+      "inStock": true
+    },
+    {
+      "id": "host-byxa-1",
+      "name": "Höstjeans",
+      "category": "byxa",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 399,
+      "discountPercent": 0,
+      "image": "assets/images/host-byxa1.png",
+      "inStock": true
+    },
+    {
+      "id": "host-byxa-2",
+      "name": "Höstchinos",
+      "category": "byxa",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 449,
+      "discountPercent": 5,
+      "image": "assets/images/host-byxa2.png",
+      "inStock": true
+    },
+    {
+      "id": "host-sko-1",
+      "name": "Vattentåliga Höstskor",
+      "category": "sko",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 499,
+      "discountPercent": 15,
+      "image": "assets/images/host-sko1.png",
+      "inStock": true
+    },
+    {
+      "id": "host-sko-2",
+      "name": "Höstkängor",
+      "category": "sko",
+      "season": "höst",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 549,
+      "discountPercent": 0,
+      "image": "assets/images/host-sko2.png",
+      "inStock": false
+    },
+    {
+      "id": "var-troja-1",
+      "name": "Vårtröja Lätt",
+      "category": "tröja",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 249,
+      "discountPercent": 10,
+      "image": "assets/images/var-troja1.png",
+      "inStock": true
+    },
+    {
+      "id": "var-troja-2",
+      "name": "Vårtröja Bomull",
+      "category": "tröja",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 299,
+      "discountPercent": 0,
+      "image": "assets/images/var-troja2.png",
+      "inStock": true
+    },
+    {
+      "id": "var-jacka-1",
+      "name": "Vårjacka Lätt",
+      "category": "jacka",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 499,
+      "discountPercent": 15,
+      "image": "assets/images/var-jacka1.png",
+      "inStock": true
+    },
+    {
+      "id": "var-jacka-2",
+      "name": "Vårjacka Parka",
+      "category": "jacka",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 549,
+      "discountPercent": 5,
+      "image": "assets/images/var-jacka2.png",
+      "inStock": false
+    },
+    {
+      "id": "var-byxa-1",
+      "name": "Vårjeans",
+      "category": "byxa",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 349,
+      "discountPercent": 0,
+      "image": "assets/images/var-byxa1.png",
+      "inStock": true
+    },
+    {
+      "id": "var-byxa-2",
+      "name": "Vårslacks",
+      "category": "byxa",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 399,
+      "discountPercent": 10,
+      "image": "assets/images/var-byxa2.png",
+      "inStock": true
+    },
+    {
+      "id": "var-sko-1",
+      "name": "Vårskor Lätta",
+      "category": "sko",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 399,
+      "discountPercent": 5,
+      "image": "assets/images/var-sko1.png",
+      "inStock": true
+    },
+    {
+      "id": "var-sko-2",
+      "name": "Vårskor Sneakers",
+      "category": "sko",
+      "season": "vår",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 449,
+      "discountPercent": 0,
+      "image": "assets/images/var-sko2.png",
+      "inStock": false
+    },
+    {
+      "id": "vinter-troja-1",
+      "name": "Vintertröja Ull",
+      "category": "tröja",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 399,
+      "discountPercent": 20,
+      "image": "assets/images/vinter-troja1.png",
+      "inStock": true
+    },
+    {
+      "id": "vinter-troja-2",
+      "name": "Vintertröja Fleece",
+      "category": "tröja",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 349,
+      "discountPercent": 10,
+      "image": "assets/images/vinter-troja2.png",
+      "inStock": false
+    },
+    {
+      "id": "vinter-jacka-1",
+      "name": "Vinterjacka Tjock",
+      "category": "jacka",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 899,
+      "discountPercent": 25,
+      "image": "assets/images/vinter-jacka1.png",
+      "inStock": true
+    },
+    {
+      "id": "vinter-jacka-2",
+      "name": "Vinterparkas",
+      "category": "jacka",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 949,
+      "discountPercent": 15,
+      "image": "assets/images/vinter-jacka2.png",
+      "inStock": true
+    },
+    {
+      "id": "vinter-byxa-1",
+      "name": "Vinterbyxor Fodrade",
+      "category": "byxa",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 499,
+      "discountPercent": 10,
+      "image": "assets/images/vinter-byxa1.png",
+      "inStock": true
+    },
+    {
+      "id": "vinter-byxa-2",
+      "name": "Vinterjeans",
+      "category": "byxa",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 549,
+      "discountPercent": 5,
+      "image": "assets/images/vinter-byxa2.png",
+      "inStock": false
+    },
+    {
+      "id": "vinter-sko-1",
+      "name": "Vinterkängor",
+      "category": "sko",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 699,
+      "discountPercent": 20,
+      "image": "assets/images/vinter-sko1.png",
+      "inStock": true
+    },
+    {
+      "id": "vinter-sko-2",
+      "name": "Vinterstövlar",
+      "category": "sko",
+      "season": "vinter",
+      "colors": [
+        "röd",
+        "svart",
+        "vit"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "basePrice": 749,
+      "discountPercent": 10,
+      "image": "assets/images/vinter-sko2.png",
+      "inStock": true
+    }
+  ]
+}
