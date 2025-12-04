@@ -307,10 +307,10 @@ html, body {
 /* wrapper runt ett kort */
 .parent-klader {
   width: 320px;
-  height: 480px;
+  height: 560px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-rows: repeat(10, 1fr);
 }
 
 /* själva kortet */
@@ -373,7 +373,7 @@ html, body {
 
 /* knapp */
 .kop-knapp-klader {
-  grid-area: 9 / 1 / 10 / 4;
+  grid-area: 11 / 1 / 12 / 4;
   align-self: stretch;
   justify-self: stretch;
   border: 1px solid var(--line);
@@ -382,7 +382,123 @@ html, body {
   border-radius: 8px;
   font-weight: 700;
   cursor: pointer;
+  height: 42px;
+  margin-top: 12px; 
 }
+
+
+
+/*storlek i product*/
+.produkt-storlek {
+  grid-area: 9 / 1 / 10 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px;
+}
+
+
+.storlek-titel {
+  font-size: 0.9rem;
+  color: var(--fg);
+}
+
+.storlek-val {
+  display: flex;
+  gap: 8px;
+}
+
+.size-btn {
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--fg);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/*färger i product*/
+.produkt-farg {
+  grid-area: 10 / 1 / 11 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px;
+}
+
+.farg-titel {
+  margin: 0;
+  color: var(--fg);
+}
+
+.farg-val {
+  display: flex;
+  gap: 10px;
+}
+
+.farg-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--line);
+  cursor: pointer;
+}
+
+.farg-rod { background: red; }
+.farg-svart { background: black; }
+.farg-vit { background: white; }
+
+/*CSS-klass för slut i lager, vi behöver fixa js för detta senare för att det ska funka*/
+.out-of-stock img {
+  filter: blur(3px) brightness(0.5);
+}
+
+.out-of-stock::after {
+  content: "Slut i lager";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.7);
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+}
+/*CSS-klass för rabatt-badge, vi behöver fixa js för detta senare för att det ska funka*/
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #d62828;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
