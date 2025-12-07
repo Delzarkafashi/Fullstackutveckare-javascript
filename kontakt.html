@@ -8,6 +8,7 @@
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link rel="icon" href="assets/images/shoplogo.png" type="image/png">
 
 </head>
 <body>
@@ -52,8 +53,54 @@
 
 
     <main class="main">
-      Kontakt
+        <div class="page-namn">
+            <h1>Kontakt</h1>
+        </div>
+
+        <p class="step-label">Steg 4: JavaScript grunder</p>
+
+            <form class="kontakt-form" id="kontakt-form">
+                <div class="form-row">
+                <label for="kontakt-namn">Namn</label>
+                <input
+                    type="text"
+                    id="kontakt-namn"
+                    name="namn"
+                    placeholder="Skriv ditt namn"
+                    required
+                >
+                </div>
+
+                <div class="form-row">
+                <label for="kontakt-epost">E-post</label>
+                <input
+                    type="email"
+                    id="kontakt-epost"
+                    name="epost"
+                    placeholder="din@mail.se"
+                    required
+                >
+                </div>
+
+                <div class="form-row">
+                <label for="kontakt-meddelande">Meddelande</label>
+                <textarea
+                    id="kontakt-meddelande"
+                    name="meddelande"
+                    rows="4"
+                    placeholder="Vad vill du fråga om?"
+                    required
+                ></textarea>
+                </div>
+
+                <button type="submit" class="kop-knapp-klader">
+                Skicka
+                </button>
+            </form>
+
+        <p id="kontakt-feedback" aria-live="polite"></p>
     </main>
+
 
         <footer class="footer site-footer" role="contentinfo">
         <div class="footer-grid">
@@ -106,6 +153,7 @@
         </footer>
 
   </div>
+  <script src="js/components/vecka4/kontakt-form.js"></script>
 </body>
 
 </html>
