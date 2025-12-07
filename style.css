@@ -523,7 +523,98 @@ html, body {
 }
 
 
+.cart-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
 
+.cart-dialog {
+  background: var(--card);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  padding: 16px 20px;
+  max-width: 280px;
+  text-align: center;
+  color: var(--fg);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.cart-dialog-text {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+
+.cart-remove-btn {
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #b91c1c;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+
+.hidden {
+  display: none;
+}
+
+/* css for kontaktform */
+.kontakt-form {
+  max-width: 480px;
+  margin: 0 auto 40px auto;
+  padding: 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row label {
+  font-size: 0.9rem;
+  color: var(--fg);
+}
+
+.form-row input,
+.form-row textarea {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--fg);
+  font: inherit;
+}
+
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+  color: var(--muted);
+}
+
+.form-row input:focus,
+.form-row textarea:focus {
+  outline: 1px solid var(--brand);
+  border-color: var(--brand);
+}
+
+#kontakt-feedback {
+  margin-top: 12px;
+  text-align: center;
+  color: var(--accent);
+  font-size: 0.9rem;
+}
 
 
 
