@@ -167,14 +167,24 @@ html, body {
   display: block;
 }
 
-
-
 /* main */
 .main {
     grid-area: 3 / 1 / 11 / 13;
     min-height: 800px;
     background-color: var(--surface);
 }
+
+/* Grid + centrering för Vecka 5-listan */
+#product-list {
+  min-height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  place-items: center;   
+  place-content: center;  
+  gap: 34px;
+  padding: 24px;
+}
+
 
 /* footer  */
 .site-footer{
@@ -345,13 +355,19 @@ html, body {
   justify-content: center;
   overflow: hidden;
   border-radius: 8px;
+  position: relative;
+  width: 170px;
+  height: 190px;  
+  margin: 0 auto 8px;
 }
 
 .bild-klader img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  display: block;
 }
+
 
 /* beskrivning */
 .beskrivning-klader {
@@ -385,6 +401,10 @@ html, body {
   height: 42px;
   margin-top: 12px; 
 }
+.kop-knapp-klader.disabled-btn {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
 
 
 
@@ -416,6 +436,23 @@ html, body {
   border-radius: 6px;
   cursor: pointer;
 }
+.size-unavailable {
+  position: relative;
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.size-unavailable::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 90%;
+  height: 2px;
+  background: red;
+  transform: translateY(-50%);
+}
+
 
 /*färger i product*/
 .produkt-farg {
@@ -468,32 +505,19 @@ html, body {
 /*CSS-klass för rabatt-badge, vi behöver fixa js för detta senare för att det ska funka*/
 .discount-badge {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #d62828;
-  padding: 4px 8px;
-  border-radius: 6px;
-  color: white;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-/* badge för rabatt uppe på bilden */
-.bild-klader {
-  position: relative; 
-}
-
-/* badge för -20 % osv */
-.discount-badge {
-  position: absolute;
-  top: 17px;
-  left: 80px;
-  padding: 4px 8px;
+  top: 10px;      
+  left: 1px;     
+  padding: 4px 10px;
   border-radius: 999px;
   background: #e11d48;
   color: #fff;
   font-size: 0.8rem;
   font-weight: 700;
-  width: 30px; 
+  text-align: center;
+}
+.badge-minus {
+  position: relative;
+  top: -1px;
 }
 .badge-minus {
   position: relative;
